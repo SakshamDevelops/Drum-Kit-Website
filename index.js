@@ -47,7 +47,6 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   );
 }
 
-
 document.addEventListener("keydown", function(event){
    var innerAlphabet = event.key;
    switch (innerAlphabet) {
